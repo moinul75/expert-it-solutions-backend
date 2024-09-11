@@ -5,8 +5,7 @@ from .serializers import (
   TokenObtainPairSerializer,
   CustomUserSerializer,
   StudentSerializer,
-  TrainerSerializer,
-  UserLoginSerializer
+  TrainerSerializer
   )
 from .models import CustomUser,Student,Trainer 
 from rest_framework.permissions import IsAuthenticated 
